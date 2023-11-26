@@ -1,0 +1,53 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cream;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Degular;
+}
+
+span {
+    color: royalblue;
+}
+
+.app {
+    color: royalblue;
+}
+
+.container {
+    margin: 50px;
+}
+
+.stats {
+    margin: 2rem 0;
+}
+
+.learn {
+    color: purple;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: transparent;
+    color: royalblue;
+    border: 2px solid royalblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+
+form {
+    margin: 20px;
+}
+
+input[type='checkbox'] {
+    accent-color: royalblue;
+}

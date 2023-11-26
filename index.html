@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>habitapp</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>habit<span class="app">app</span></h1>
+        
+        <div class="stats">
+            <!-- Automate the date -->
+            <h4>Today's date is: <span id="current-date"></span></h4>
+
+            <!-- Automate the streak -->
+            <h4>Total points: <span id="counterDisplay"></span></h4>
+
+            <button id="resetButton">Reset</button>
+        </div>
+
+
+        <h3>Health</h3>
+        <form id="Health" action="">
+            <!-- Athletic Greens -->
+            <input type="checkbox" id="AG1" name="AG1" value="AG1">
+            <label for="AG1"> AG1</label><br>
+
+            <!-- Stretch -->
+            <input type="checkbox" id="Stretch" name="Stretch" value="Stretch">
+            <label for="Stretch"> Stretch</label><br>
+            
+            <!-- Meditate -->
+            <input type="checkbox" id="Meditate" name="Meditate" value="Meditate">
+            <label for="Meditate"> Meditate</label><br>
+
+            <!-- Exercise -->
+            <input type="checkbox" id="Exercise" name="Exercise" value="Exercise">
+            <label for="Exercise"> Exercise</label><br>
+
+            <!-- Read -->
+            <input type="checkbox" id="Read" name="Read" value="Read">
+            <label for="Read"> Read / Podcast</label><br>
+
+            <!-- <input type="submit" value="Submit"> -->
+        </form>
+
+        <h3>Skill Sharpening</h3>
+        <form id="Skill Sharpening" action="">
+            <!-- Guitar -->
+            <input class="skill" type="checkbox" id="Guitar" name="Guitar" value="Guitar">
+            <label for="Guitar"> Guitar</label><br>
+
+            <!-- Code -->
+            <input class="skill" type="checkbox" id="Code" name="Code" value="Code">
+            <label for="Code"> Coding</label><br>
+
+            <!-- Listen to a foreign language -->
+            <input class="skill" type="checkbox" id="Language" name="Language" value="Language">
+            <label for="Language"> French/Spanish</label><br>
+
+
+            <input class="skill" type="checkbox" id="BJJ" name="BJJ" value="BJJ">
+            <label for="BJJ"> Jiu Jitsu</label><br>
+
+
+            <input class="skill" type="checkbox" id="Golf" name="Golf" value="Golf">
+            <label for="Golf"> Golf</label><br>
+
+            <!-- <input type="submit" value="Submit"> -->
+        </form>
+
+        <h3>Money Saving</h3>
+        <form id="Skill Sharpening" action="">
+         
+            <!-- Cook -->
+            <input type="checkbox" id="Cook" name="Cook" value="Cook">
+            <label for="Cook"> Cook</label><br>
+ 
+             <!-- Cook -->
+             <input type="checkbox" id="Sober" name="Sober" value="Sober">
+             <label for="Sober"> No Drinking</label><br>
+
+            <!-- <input type="submit" value="Submit"> -->
+        </form>
+    </div>  
+
+    <script src="./style/script.js"></script>
+    <script src="./style/date.js"></script>
+</body>
+</html>
